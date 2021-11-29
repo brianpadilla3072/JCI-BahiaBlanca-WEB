@@ -1,0 +1,279 @@
+
+.contenedor {
+	width: 100%;
+	max-width:1000px;
+	height: 768px;
+	
+}
+/* --- menu-banner ----------------------------------------------------------------------------------- */
+
+header{
+	margin: 0;
+	padding: 0;
+	background-color: #0097D7;
+	width: 100%;
+	height: 640px;
+
+}
+.menu {
+	margin-bottom:0;
+	height: 48px;
+	box-shadow:0px 4px 3px rgba(0,0,0,.4);
+	background-color: #0097D7;
+
+}
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+
+}
+header nav ul  li {
+	float: right;
+
+}
+header nav ul  li a {
+	display: block;
+	padding:10px;
+	color:#fff;
+	text-decoration: none;
+
+}
+header nav ul li a:hover {
+	background:#2980b9;
+	
+	transition: all ease .3s;
+}
+.menuposition{
+	float: right;
+	margin: 5px;
+
+}
+.contenedorLogo{
+	margin: auto;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	height: 669px
+	
+}
+.logo{
+	text-align: center;
+	width: 100%;
+	height: 501px;
+	padding: 0px;
+	margin-bottom: 100px
+}
+header div p img{
+	width: 80%;
+	height: 90%;
+}
+/* --- animacion para tiempo de cambio de menu --- */	
+
+/* ----------------------------------------------- */
+/* --- Clase que agregaremos cuando el usuario haga scroll ----------------------------------------- */
+.menu-fixed{
+	position:fixed;
+	z-index:100;
+	top:0;
+	left: 0;
+	width:100%;
+	padding: 10px;
+	height: 45px;
+	box-shadow:0px 4px 3px rgba(0,0,0,.4);
+	background-color:  #0097D7;
+	transition: all ease .5s;
+	-webkit-transition: all ease .5s;
+	-o-transition: all ease .5s;
+	font-size: 20px;
+	display:inline-block;
+	
+}
+.menuposition-acivo{
+	margin-right: 20px;
+
+}
+.menuposition-acivo .logomenu-inv{
+	width: 100px;
+	height: 40px;
+}
+
+
+/* --- Contenido ----------------------------------------------------------------------------------- */
+section{
+	margin: auto;
+	padding-top: 50px;
+}
+/* --- seccion 1 --- */
+.Quienes-somos{
+	margin-top: 10px;
+	width: 100%;
+	text-align: center;
+	height: 600px;
+	background-color: rgb(255, 255, 255);
+}
+.Quienes-somos:hover{
+	height: 610px;
+	box-shadow:0px 4px 3px rgba(0,0,0,.4);
+	transition:all ease .3s;
+}
+.Quienes-somos h1{
+	text-align: center;
+	margin: 20px;
+	color:#0A0F29;
+}
+.Quienes-somos p {
+	margin: auto;
+	width: 50%;
+	height: 50%;
+	padding: 20px;
+	color: #0A0F29;
+}
+/* --- seccion 2 --- */
+.Que-busca {
+	margin-top: 4px;
+	padding-top: 50px;
+	width: 100%;
+	text-align: center;
+	height: 600px;
+	background-color:  #0097D7;
+}
+.Que-busca:hover {
+	height: 610px;
+	transition: all ease .3s;
+	box-shadow:0px 4px 3px rgba(0,0,0,.4);
+}
+.Que-busca h1 {
+	text-align: center;
+	margin: 20px;
+	color:#fff;
+	
+}
+.Que-busca p{
+	color: white;
+	padding: 20px;
+	width: 50%;
+	height: 50%;
+	margin: auto;
+}
+/* --- seccion 3 --- */
+.Que-Puedo-Aprende{
+margin-top: 10px;
+padding-top: 50px;
+width: 100%;
+text-align: center;
+height: 1000px;
+background-color: white;
+}
+.Que-Puedo-Aprende:hover{
+	height: 1005px;
+	box-shadow:0px 4px 3px rgba(0,0,0,.4);
+	transition:all ease .3s;
+}
+.Que-Puedo-Aprende div{
+	padding: 10px;
+	margin-top: 10px;
+	display:inline-block;
+	background-color: #0097D7;
+	width: 25%;
+	height: 450px;
+	border-radius: 30px;
+	box-shadow:0px 4px 3px rgba(0,0,0,.1);
+
+}
+
+
+.Que-Puedo-Aprende div:hover{
+	padding: 10px;
+	margin-top: 10px;
+	display:inline-block;
+	background-color: #2980b9;
+	width: 26%;
+	height: 455px;
+	border-radius: 30px;
+	transition: all ease .3s;
+	box-shadow:0px 4px 3px rgba(0,0,0,.2);
+
+}
+.Que-Puedo-Aprende h1{
+	color: #0A0F29;
+}
+
+
+/* --- seccion 4 --- */
+.Aliados{
+	margin-top: 10px;
+	padding-top: 50px;
+	width: 100%;
+	text-align: center;
+	height: 600px;
+	background-color: white;
+	}
+	.Aliados:hover{
+		height: 602px;
+		box-shadow:4px 4px 3px rgba(0,0,0,.3);
+		transition:all ease .3s;
+	}
+	.Aliados div{
+		padding: 10px;
+		margin-top: 10px;
+		display:inline-block;
+		background-color: #0097D7;
+		width: 296px;
+		height: 296px;
+		border-radius: 30px;
+		box-shadow:0px 4px 3px rgba(0,0,0,.1);
+	
+	}
+	
+	
+	.Aliados div:hover{
+		padding: 10px;
+		margin-top: 10px;
+		display:inline-block;
+		background-color: #2980b9;
+		width: 298px;
+		height: 298px;
+		border-radius: 30px;
+		transition: all ease .3s;
+		box-shadow:0px 4px 3px rgba(0,0,0,.2);
+	
+	}
+	.Aliados h1{
+		color: #0A0F29;
+		text-align: center;
+	}
+
+/* --- footer     --- */
+
+footer{
+	width: 100%;
+	height: 250px;
+	background-color: #0A0F29;
+	
+}
+footer nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+footer nav ul  li a {
+	display: block;
+	padding:10px;
+	color:#fff;
+	text-decoration: none;
+	text-align: left;
+	font-size: 12px;
+	
+}
+footer nav ul li a:hover {
+	background-color: #2980b9;
+	
+}
+.footerpositin{
+	float: left;
+	margin: 5px;
+}
+
+
+
+
+
